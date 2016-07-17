@@ -1,0 +1,42 @@
+body {
+	color: #454545;
+	font: 14px/14px arial;
+	background: #999;
+}
+h1  {
+	font: bold 18px arial;
+}
+#form-wrapper {
+	width: 400px;
+	padding: 30px;
+	border: #333 solid 4px;
+	border-radius: 10px;
+	background: #f0f0f0;
+	margin: 100px auto;
+	overflow: hidden;
+}
+#form-wrapper div {
+	width: 50%;
+	float: left;
+}
+#form-wrapper div input, #form-wrapper div textarea {
+	height: 25px;
+	margin: 5px 0;
+	border: #333 solid 1px;
+	border-radius: 5px;
+}
+#form-wrapper div textarea {
+	height: 100px;
+}
+#form-wrapper div p {
+	line-height: 30px;
+	margin: 5px 0;
+	padding: 0;
+}
+#form-wrapper #left-form #img-val {
+	clear: both;
+	width: 100%;
+}
+#form-wrapper div #submit-but {
+	float: none;
+}

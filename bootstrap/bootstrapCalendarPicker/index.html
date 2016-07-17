@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Date Picker</title>
+    <meta name="description" content="">
+    <link rel="canonical" href="">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
+
+
+
+
+    <script src="js/bootstrap-datepicker.js"></script>
+    <!--<script src="js/calendar.js"></script>-->
+
+    <link href="css/datepicker.css" rel="stylesheet">
+    <link href="css/calendar.css" rel="stylesheet">
+
+    
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+
+            <script type="text/javascript">
+                $(function () {
+                    $('.calendar-picker').datepicker();
+                });
+            </script>
+
+
+            <div class="input-append date" id="dp3" data-date="01-02-2016" data-date-format="mm-dd-yyyy">
+                <input class="span2 calendar-picker" size="16" type="text" value="mm-dd-yyyy">
+            </div>  
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

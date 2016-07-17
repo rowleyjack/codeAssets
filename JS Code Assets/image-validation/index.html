@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS Course</title>
+<link rel="stylesheet" href="css/global.css">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/img-val.js"></script>
+
+</head>
+
+<body>
+<div id="form-wrapper">
+	<h1>Image Form Validation</h1>
+		<div id="left-form">
+			<p>Price: $10/bottle:</p>
+			<p>Price: $8/bottle:</p>		
+			<p>Price: $5/bottle:</p>
+			<p>Selection:</p>
+			<p>Shipping:</p><br>
+			<p>Pickup</p>
+			<p>US Postal:</p>
+			<p>FedEx</p>
+		</div>
+		<div id="left-form">
+			<form id="testForm">
+				<input type="text-field" name="quanity1" id="quanity1">
+				<input type="text-field" name="quanity2" id="quanity2"> 
+				<input type="text-field" name="quanity3" id="quanity3">
+				<select id="select">
+					<option>- Select -</option>
+					<option value="s1">selection One</option>
+					<option value="s2">selection Two</option>
+				</select><br><br><br><br>
+				<br>
+				<input id="pick" name="shipping" type="radio" value="pickup"><br>
+				<input id="us" name="shipping" type="radio" value="usps"><br>
+				<input id="fed" name="shipping" type="radio" value="fedex">
+				<br>
+				<div id="img-val">
+					<img id="selectedImage" src="images/1.jpg" width="150" height="150">
+					<input id="checker" type="text-field" name="image-check">
+				</div>
+				<input id="submit-but" type="submit" name="submit" onclick="checkWho ()">
+				<p id="message"></p>
+			</form>
+		</div>
+	
+	<p id="results"></p>
+</div>
+
+</body>
+</html>

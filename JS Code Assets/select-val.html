@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS Course</title>
+<link rel="stylesheet" href="../css/global.css">
+</head>
+
+<body>
+<div id="form-wrapper">
+	<h1>Chapter 3-8</h1>
+	<form id="test-form">
+		<div id="left-form">
+			<p>Price: $10/bottle:</p>
+			<p>Price: $8/bottle:</p>		
+			<p>Price: $5/bottle:</p>
+			<p>Selection:</p>
+			<p>Shipping:</p><br>
+			<p>Pickup</p>
+			<p>US Postal:</p>
+			<p>FedEx</p>
+		</div>
+		<div id="left-form">
+			<input type="text-field" name="quanity1" id="quanity1">
+			<input type="text-field" name="quanity2" id="quanity2"> 
+			<input type="text-field" name="quanity3" id="quanity3">
+			<select id="select" required>
+				<option>- Select -</option>
+				<option value="s1">selection One</option>
+				<option value="s2">selection Two</option>
+			</select><br><br><br><br>
+			<br>
+			<input id="pick" name="shipping" type="radio" value="pickup"><br>
+			<input id="us" name="shipping" type="radio" value="usps"><br>
+			<input id="fed" name="shipping" type="radio" value="fedex">
+			<br>
+			<input type="submit" name="submit">
+		</div>
+	</form>
+	<p id="results"></p>
+</div>
+<script>
+//alert('works');
+
+document.getElementById('test-form').addEventListener('submit', testSelect);
+
+function testSelect () {
+
+var selectVal = document.getElementById('select').value;
+event.preventDefault();
+
+	if (selectVal === 's1' || selectVal === 's2') {
+		alert('correctly sellected');
+	} else {
+		
+
+		alert('must select');
+		document.getElementById('select').focus();
+
+	}
+}
+
+
+</script>
+</body>
+</html>

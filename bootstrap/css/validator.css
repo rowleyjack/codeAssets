@@ -1,0 +1,202 @@
+/* Black: #000000 */
+/** EWCM Business Navigation Column Control - Start **/
+/** EWCM Color Definitions - start
+    NOTE - Any change to this file, make sure to update the cascadeColors.less as well **/
+/* Black: #000000 */
+/* White: #FFFFFF */
+/* Gray: #9A9B9C */
+/* Dark Gray: #616365 */
+/* Light Gray: #EFEFEF */
+/* Bright Green: #8CC63F */
+/* CenturyLink Green: #00853F */
+/* Light Green: #A5D867 */
+/* Mustard Yellow: #CED64B */
+/* Accent Dark Orange: #FF6319 */
+/* Accent Light Orange: #FFA02F */
+/* Accent Yellow: #FDCB2F */
+/* Accent Dark Blue: #0098DB */
+/* Accent Light Blue: #A0CFEB */
+/* Business Light Green: #00853F */
+/* Business Green: #006633 */
+/* Business Dark Green: #003300 */
+/* Residential Light Orange: #FF9933 */
+/* Residential Orange: #FF6600 */
+/* Residential Dark Orange: #CC3300 */
+/* Small Business Light Green: #8CC63F */
+/* Small Business Green: #669900 */
+/* Small Business Dark Green: #336600 */
+/** EWCM Color Definitions - stop   **/
+/** EWCM Text Definitions - start  **/
+.normal {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+}
+.large {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 22px;
+}
+.giant {
+  font-family: Arial;
+  font-size: 48px;
+  line-height: 54px;
+}
+.huge {
+  font-family: Arial;
+  font-size: 32px;
+  line-height: 38px;
+}
+.big {
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 32px;
+}
+.small {
+  font-family: Arial;
+  font-size: 10px;
+  line-height: 14px;
+}
+/** EWCM Text Definitions - stop  **//** Font Color Definitions - Start **/
+.black-font,
+a.black-font {
+  color: #000000 !important;
+}
+.white-font,
+a.white-font {
+  color: #ffffff !important;
+}
+.gray-font,
+a.gray-font {
+  color: #9a9b9c !important;
+}
+.dark-gray-font,
+a.dark-gray-font {
+  color: #616365 !important;
+}
+.light-gray-font,
+a.light-gray-font {
+  color: #efefef !important;
+}
+.bright-green-font,
+a.bright-green-font {
+  color: #8cc63f !important;
+}
+.centurylink-green-font,
+a.centurylink-green-font {
+  color: #00853f !important;
+}
+.light-green-font,
+a.light-green-font {
+  color: #a5d867 !important;
+}
+.mustard-yellow-font,
+a.mustard-yellow-font {
+  color: #ced64b !important;
+}
+.accent-dark-orange-font,
+a.accent-dark-orange-font {
+  color: #ff6319 !important;
+}
+.accent-light-orange-font,
+a.accent-light-orange-font {
+  color: #ffa02f !important;
+}
+.accent-yellow-font,
+a.accent-yellow-font {
+  color: #fdcb2f !important;
+}
+.accent-dark-blue-font,
+a.accent-dark-blue-font {
+  color: #0098db !important;
+}
+.accent-light-blue-font,
+a.accent-light-blue-font {
+  color: #a0cfeb !important;
+}
+.business-light-green-font,
+a.business-light-green-font {
+  color: #00853f !important;
+}
+.business-green-font,
+a.business-green-font {
+  color: #006633 !important;
+}
+.business-dark-green-font,
+a.business-dark-green-font {
+  color: #003300 !important;
+}
+.residential-light-orange-font,
+a.residential-light-orange-font {
+  color: #ff9933 !important;
+}
+.residential-orange-font,
+a.residential-orange-font {
+  color: #ff6600 !important;
+}
+.residential-dark-orange-font,
+a.residential-dark-orange-font {
+  color: #cc3300 !important;
+}
+.small-business-light-green-font,
+a.small-business-light-green-font {
+  color: #8cc63f !important;
+}
+.small-business-green-font,
+a.small-business-green-font {
+  color: #669900 !important;
+}
+.small-business-dark-green-font,
+a.small-business-dark-green-font {
+  color: #336600 !important;
+}
+/** Font Color Definitions - End **/.container {
+  width: 80%;
+}
+.black-border {
+  border: 1px solid;
+  border-color: #000000;
+}
+.column-container {
+  padding-bottom: 60px;
+  margin-left: 200px;
+  margin-bottom: 80px;
+  width: 100%;
+}
+.pageTitle {
+  color: #616365;
+  font-size: 16px;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.column-title {
+  padding: 15px 0 20px 0;
+  margin: 2px 50px 0;
+  color: #616365;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navigation-area {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-width: 160px;
+  padding: 15px 0 0 0;
+  margin-left: 10%;
+  width: 80%;
+  font-size: 14px;
+  text-align: center;
+  list-style: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.body {
+  width: 80%;
+}
+/** EWCM Business Navigation Column Control - End **/
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

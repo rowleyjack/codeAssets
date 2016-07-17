@@ -1,0 +1,38 @@
+body {
+  background: #999;
+  font: 14px arial;
+  color: #999;
+}
+.corp-nav {
+  height: 50px;
+  background-color: white;
+  color: #999;
+  padding: 10px;
+  border: 1px solid black;
+}
+.corp-nav .click-drop {
+  cursor: pointer;
+  padding: 5px 20px;
+  float: left;
+}
+.corp-nav ul .drop {
+  background-color: #333;
+  padding: 20px;
+  border: 3px solid #d2d2d2;
+  color: black;
+  margin-top: 20px;
+  width: 300px;
+  float: left;
+}
+.corp-nav ul .drop ul {
+  margin-bottom: 0;
+}
+.corp-nav ul .drop ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+.corp-nav ul .drop ul li a {
+  color: white;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

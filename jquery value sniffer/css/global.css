@@ -1,0 +1,8 @@
+
+#wrapper .image-container, #wrapper .main-image-container {
+	margin: 20px 0;
+}
+#wrapper .main-image-container {
+	width: 422px;
+	margin: 20px auto;
+}
